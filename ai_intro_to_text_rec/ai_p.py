@@ -27,11 +27,8 @@ def main():
   loaded_model_json = json_file.read()
   json_file.close()
   cnn = model_from_json(loaded_model_json)
-  # load weights into new model
   cnn.load_weights("model.h5")
   print("Loaded model from disk")
-  
-  # evaluate loaded model on test data
   cnn.compile(loss=keras.losses.categorical_crossentropy, optimizer=keras.optimizers.Adadelta(), metrics=['accuracy'])
 
   length_of_regions_of_interest = len(regions_of_interest)
@@ -152,22 +149,16 @@ def train_cnn(trained_images, trained_labels, test_images, test_labels):
   #model_json = model.to_json()
   #with open("model.json", "w") as json_file:
   #  json_file.write(model_json)
-  #serialize weights to HDF5
   #model.save_weights("model.h5")
   #print("Saved model to disk")
  
-  # later...
- 
-  # load json and create model
   json_file = open('model.json', 'r')
   loaded_model_json = json_file.read()
   json_file.close()
   loaded_model = model_from_json(loaded_model_json)
-  # load weights into new model
   loaded_model.load_weights("model.h5")
   print("Loaded model from disk")
   
-  # evaluate loaded model on test data
   loaded_model.compile(loss=keras.losses.categorical_crossentropy, optimizer=keras.optimizers.Adadelta(), metrics=['accuracy'])
   score = loaded_model.evaluate(test_images, test_labels, verbose=0)
   print("%s: %.2f%%" % (loaded_model.metrics_names[1], score[1]*100))
