@@ -1,0 +1,80 @@
+.signup {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    color: green;
+    background-color: black;
+}
+
+.customer-signup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.business-signup {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.customer-signup input, .business-signup input {
+    font-size: 40px;
+    color: green;
+    background-color: black;
+    margin-top: 20px;
+    border: 2;
+    border-color: green;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.send-customer-nohover {
+    font-size: 40px;
+    font-weight: 600;
+    width: 450px;
+    color: yellow;
+    background-color: black;
+    border-color: yellow;
+    margin: 20px 0 50px 0;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.send-customer-hover {
+    font-size: 40px;
+    font-weight: 600;
+    width: 450px;
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+    margin: 20px 0 50px 0;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.send-business-nohover {
+    font-size: 40px;
+    font-weight: 600;
+    width: 450px;
+    color: yellow;
+    background-color: black;
+    border-color: yellow;
+    margin: 20px 0 50px 0;
+    border-radius: 15px;
+    padding: 3px;
+}
+
+.send-business-hover {
+    font-size: 40px;
+    font-weight: 600;
+    width: 450px;
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+    margin: 20px 0 50px 0;
+    border-radius: 15px;
+    padding: 3px;
+}

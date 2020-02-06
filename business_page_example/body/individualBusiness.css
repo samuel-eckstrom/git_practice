@@ -1,0 +1,46 @@
+.business-profile {
+    display: flex;
+    font-size: 20px;
+    flex-direction: column;
+    align-items: center;
+    border-style: solid;
+    border-radius: 7px;
+    width: 1225px;
+    position: relative;
+    left: 13px;
+    background-color: black;
+}
+
+.business-stuff {
+    display: flex;
+    flex-direction: row;
+    border-left-style: solid;
+    border-right-style: solid;
+    border-top-style: solid;
+    width: 100%;
+}
+
+.profile-box-deals {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-box-events {
+    padding-left: 100px;
+    padding-right: 100px;
+    border-left-style: solid;
+    border-right-style: solid;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-box-details {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.profile-box-details-items {
+    display: flex;
+}

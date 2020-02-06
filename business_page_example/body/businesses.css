@@ -1,0 +1,16 @@
+.background-edge {
+    background-color: black;
+    padding-bottom: 20px;
+}
+
+.no-restaurants-state {
+    position: relative;
+    left: 110px;
+    width: 1050px;
+}
+
+.no-restaurants-city {
+    position: relative;
+    left: 115px;
+    width: 1050px;
+}

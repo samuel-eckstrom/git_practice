@@ -1,0 +1,177 @@
+.body {
+    color: green;
+    background-color: black;
+}
+
+.business-signup-info {
+    width: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    left: 10px;
+}
+
+.business-signup-info input {
+    margin-top: 20px;
+    font-size: 30px;
+    width: 1225px;
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specials {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.specials-title {
+    font-size: 40px;
+}
+
+.specials-input {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.specials-input textarea {
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+    margin: 30px;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.events-title {
+    font-size: 40px;
+}
+
+.events-input {
+    display: flex;
+    flex-direction: row;
+}
+
+.events-input textarea {
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+    margin: 30px;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.details-title {
+    font-size: 40px;
+}
+
+.details-description textarea {
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.details-hours input {
+    width: 1225px;
+    font-size: 30px;
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+    margin-bottom: 20px;
+}
+
+.location-address {
+    font-size: 30px;
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+    width: 1225px;
+    margin-bottom: 20px;
+}
+
+.state-menu, .city-menu {
+    border-radius: 8px;
+    border-color: red;
+    font-size: 30px;
+    background-color: black;
+    color: red;
+    width: 1232px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact input {
+    color: red;
+    background-color: black;
+    border-color: red;
+    border-radius: 7px;
+    font-size: 30px;
+    width: 1225px;
+    margin-bottom: 20px;
+}
+
+.intro {
+    position: relative;
+    left: 160px;
+    width: 900px;
+    border-bottom-style: solid;
+    border-color: red;
+}
+
+.business-signup-button-nohover {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: yellow;
+    background-color: black;
+    border-color: yellow;
+    border-radius: 7px;
+    width: 1232px;
+    position: relative;
+    left: 13px;
+}
+
+.business-signup-button-hover {
+    margin: 20px 0;
+    font-size: 30px;
+    font-weight: 600;
+    color: black;
+    background-color: yellow;
+    border-color: yellow;
+    border-radius: 7px;
+    width: 1232px;
+    position: relative;
+    left: 13px;
+}

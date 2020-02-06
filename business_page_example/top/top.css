@@ -1,0 +1,125 @@
+.website-info {
+    display: flex;
+    color: green;
+    background-color: black;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    border-left: 0;
+    border-right: 0;
+    border-top: 0;
+    border-style: solid;
+    border-color: green;
+}
+
+.main-title {
+    position: left;
+    padding-right: 230px;
+    font-size: 50px;
+}
+
+.sub-info {
+    display: flex;
+    padding-left: 30px;
+}
+
+.info-items-nohover-home {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-items-hover-home {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+}
+
+.info-items-nohover-login {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-items-hover-login {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+}
+
+.login-dropdown-menu {
+    display: flex;
+    position: absolute;
+    left: 850px;
+    top: 70px;
+    width: 250px;
+    color: green;
+    background-color: black;
+    border-color: green;
+    border-style: solid;
+    border-radius: 10px;
+    justify-content: center;
+    flex-flow: wrap;
+    padding: 1px;
+    z-index: 10;
+}
+
+.login-dropdown-menu input {
+    font-size: 20px;
+    color: green;
+    background-color: black;
+    margin-top: 10px;
+    border: 2;
+    border-color: green;
+    border-radius: 15px;
+    padding: 5px;
+}
+
+.info-items-nohover-signup {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-items-hover-signup {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+}
+
+.info-items-nohover-businesssignup {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    width: 100px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.info-items-hover-businesssignup {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: green;
+    color: black;
+    border-radius: 10px;
+}
